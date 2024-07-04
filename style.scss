@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./img/image.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: brightness(0.9);
+    background-size: cover;
+  }
+  
+  .service-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    border-left: 5px solid #007bff;
+    padding-left: 10px;
+  }
+
+  .logoimg1 {
+    max-height: 80px;
+  }
+
+  .othercompany-text {
+    color: #454444;
+    font-family: Lato;
+  }
+
+  .uw-img {
+    border-radius: 5px;
+  }
+
+  .btn-phone {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
